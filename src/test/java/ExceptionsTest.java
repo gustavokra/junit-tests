@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class ExceptionsTest {
 
     @Test
-    void validarExecessaoTransferencia() {
+    void validarExececaoTransferencia() {
         Conta contaOrigem = new Conta("1", 0);
         Conta contaDestino = new Conta("2", 100);
 
@@ -16,7 +16,7 @@ public class ExceptionsTest {
     }
 
     @Test
-    void validarNaoExecessaoTransferencia() {
+    void validarNaoExececaoTransferencia() {
         Conta contaOrigem = new Conta("1", 0);
         Conta contaDestino = new Conta("2", 100);
 
