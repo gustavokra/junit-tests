@@ -30,4 +30,8 @@ public class Pessoa {
         return getIdade() >= 18;
     }
 
+    public static void main(String[] args) {
+        System.out.println();
+    }
+
 }
